@@ -1,0 +1,26 @@
+﻿{
+	
+"comandos": ["if", "while", "do-while", "int", "var", "double", "else", "switch"],
+	
+
+"funcoes": {
+		
+"if": "Executar um teste lógico (verdadeiro ou falso)!",
+		
+"while": "Repetir o código enquanto a condição for verdadeira!",
+		
+"do-while": "Executar um código uma vez e verificar se ele será executado novamente!",
+		
+"int": "Número do tipo inteiro!",
+		
+"var": "Declarar variáveis!",
+		
+"double": "Número com casas decimais de 64 bits!",
+		
+"else": "Executa uma segunda opção caso o if seja falso!",
+		
+"switch": "Indica as variáveis a serem comparadas!"
+	}
+
+}
+
