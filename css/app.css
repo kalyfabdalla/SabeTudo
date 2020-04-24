@@ -1,3 +1,8 @@
+@font-face {
+	font-family: FunFont;
+	src: url(TropicalAsianDemoRegular-11V0.ttf);
+  }
+
 html {
 	box-sizing: border-box;
 }
@@ -8,6 +13,7 @@ html {
 	box-sizing: inherit;
 }
 
+
 html,
 body {
 	width: 100%;
@@ -17,10 +23,44 @@ body {
 }
 
 body {
-	background: #ffffff;
 	font-family: 'Coda', cursive;
 	font-size: 16px;
 }
+
+#livro{
+	position: absolute;
+	top: 30px;
+	left: 160px;
+   
+}
+
+.info{
+	position: relative;
+	top: 70px;
+	
+
+	text-align: center;
+}
+
+.leftpage{
+	position: absolute;
+	top: 70px;
+	left: 80px; 
+	width: 40%;
+	height: 50%;
+	text-align: center;
+}
+
+.rightpage{
+	display: inline-block;
+	position: absolute;
+	top: 90px;
+	left: 580px;
+	width: 40%;
+	height: 10%;
+   
+}
+
 
 .container {
 	display: flex;
@@ -31,6 +71,12 @@ body {
 
 h1 {
 	font-family: 'Coda', cursive;
+}
+
+h3{
+	font-family: 'FunFont';
+	font-size: 58pt;
+	
 }
 
 
@@ -81,6 +127,7 @@ h1 {
 
 
 
+
 .deck .card.open {
 	transform: rotateY(0);
 	background: rgb(255, 153, 58);
@@ -127,7 +174,7 @@ h1 {
 
 
 .score-panel {
-	text-align: left;
+	text-align: center;
 	margin-bottom: 10px;
 }
 
